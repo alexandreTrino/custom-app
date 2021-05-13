@@ -1,0 +1,21 @@
+{
+  "vendor": "vtexmx",
+  "name": "helloworld",
+  "version": "0.3.0",
+  "builders": {
+    "styles": "2.x",
+    "store": "0.x",
+    "react": "3.x"
+  },
+  "mustUpdateAt": "2020-09-13",
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "dependencies": {},
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema",
+  "title": "Hello-world",
+  "description": "A QA app to make tests",
+  "registries": [
+    "smartcheckout"
+  ]
+}
